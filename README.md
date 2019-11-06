@@ -8,9 +8,9 @@ Plotting the shortest path for an airline to enable a passenger to fly from city
 
 ## Usage
 1. Finding how the number of cities in the network affect the time taken for BFS Algorithm: 
-&nbsp;&nbsp;- _python numCities.py_
+<pre><code> $ python numCities.py</code></pre>
 2. Finding how the number of non-stop flights affect the time taken for BFS Algorithm
-&nbsp;&nbsp;- _python numDirectFlights.py_
+<pre><code> $ python numDirectFlights.py</code></pre>
 
 ## How it works
 _graph.py_ contains Graph Class which has the stores the flights between cities in the dictionary _graph_dict_ and has the following methods:
